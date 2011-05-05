@@ -1,9 +1,6 @@
 name: Kevin Beck
-email: kevinbeck78@hotmail.com
+email:
 
 github: 
   user: kevinbeck
-  token: 
-
-diff:
-  external: /Users/kevinb/bin/git-diff-driver.sh
+  token:
