@@ -12,3 +12,15 @@ alias irb='irb --readline -r irb/completion'
 alias rii='ri -Tf ansi'
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
+
+# bash history setup
+export HISTCONTROL=ignorespace:erasedups
+export HISTSIZE=10000
+shopt -s histappend
+
+# autotest
+export AUTOFEATURE=true
+
+# GitX
+alias gitx="/Applications/GitX.app/Contents/MacOS/GitX"
+
