@@ -1,9 +1,9 @@
-name: Kevin Colyar
-email: kevin@colyar.net
+name: Kevin Beck
+email: kevinbeck78@hotmail.com
 
 github: 
-  user: kevincolyar
+  user: kevinbeck
   token: 
 
 diff:
-  external: /Users/kevinc/bin/git-diff-driver.sh
+  external: /Users/kevinb/bin/git-diff-driver.sh
