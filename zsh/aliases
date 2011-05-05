@@ -1,5 +1,6 @@
 # cd
 alias ..='cd ..'
+alias cdd='cd -'   	# go to last dir cd'ed from
 
 # ls
 alias ls="ls -FG"
@@ -11,6 +12,7 @@ alias la='ls -AG'
 alias less="less -R"
 
 # git
+alias ga='git add .'
 alias gl='git pull'
 alias gp='git push'
 alias gd='git diff'
@@ -30,13 +32,14 @@ alias tlog='tail -f log/development.log'
 alias scaffold='script/generate scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
+alias rake?='rake -T'
 
 # commands starting with % for pasting from web
 alias %=' '
 
-# Globbing issues
+# globbing issues
 alias curl='noglob curl'
 alias git='noglob git'
 
-# Force Tmux into utf mode
+# force Tmux into utf mode
 alias t='tmux -u'
