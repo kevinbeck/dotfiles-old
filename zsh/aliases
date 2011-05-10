@@ -38,8 +38,8 @@ alias rake?='rake -T'
 alias %=' '
 
 # globbing issues
-alias curl='noglob curl'
-alias git='noglob git'
+#alias curl='noglob curl'
+#alias git='noglob git'
 
 # force Tmux into utf mode
 alias t='tmux -u'
