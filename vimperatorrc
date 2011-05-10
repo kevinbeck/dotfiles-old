@@ -1,3 +1,6 @@
 set guioptions+=mTB
 set go+=b
 javascript liberator.beep = function() { return false; }
+
+" automatic pass-through mode on certain pages (do ':h autocommands' for details)
+autocmd LocationChange .* js modes.passAllKeys = /(mail\.google\.com|google.com\/reader\/|rememberthemilk\.com\/home\/thebecks)/.test(buffer.URL)
